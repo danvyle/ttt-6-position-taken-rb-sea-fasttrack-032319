@@ -1,11 +1,11 @@
 # code your #position_taken? method here!
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
 
-def position_taken(board,index)
+def position_taken
   if board[index_number] != " "
     puts "Yes, it is taken"
   else
     puts "No, it is not taken"
 end
 
-puts position_taken(board,3)
+position_taken
