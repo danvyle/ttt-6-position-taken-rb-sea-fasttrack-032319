@@ -6,4 +6,4 @@ def position_taken? (board, index)
   end
 end
 
-position_taken?(1, board)
+position_taken?(board, 1)
