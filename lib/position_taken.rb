@@ -1,11 +1,8 @@
 # code your #position_taken? method here!
 board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
 
-def position_taken?(index_number, gameboard)
-  if gameboard[index_number] != " "
-    puts "Yes, it is taken"
-  else
-    puts "No, it is not taken"
+def position_taken?(index, board)
+  if board[index] != " "
   end
 end
 
