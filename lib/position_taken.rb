@@ -6,4 +6,10 @@ def position_taken? (board, index)
   end
 end
 
-position_taken?(board, 1)
+
+user_input = gets.chomp.to_i
+
+index = user_input - 1 
+
+
+position_taken?(board, index)
