@@ -6,8 +6,7 @@ user_input = gets.chomp.to_i
 index = user_input - 1 
 
 def position_taken? (board, index)
-  if board[index] == " " || "" || "nil"
-  end
+  board[index] == " "
 end
 
 
