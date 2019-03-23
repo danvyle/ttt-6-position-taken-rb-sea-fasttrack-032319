@@ -2,7 +2,7 @@
 board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(index, board)
-  if board[index] != " "
+  if board[index] != " " || ""
   end
 end
 
