@@ -2,8 +2,7 @@
 board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken? (board, index)
-  if board[index] == "X" || "O"
-    puts "true"
+  if board[index] == " " || "" || "nil"
   end
 end
 
