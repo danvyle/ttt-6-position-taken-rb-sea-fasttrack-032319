@@ -2,7 +2,7 @@
 board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken
-  if board[index_number] != " "
+  if board[1] != " "
     puts "Yes, it is taken"
   else
     puts "No, it is not taken"
